@@ -1,0 +1,37 @@
+.text-input-container {
+  width: 100%;
+  padding: 0 0.5rem;
+  border: 2px solid var(--purple);
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  /* box-shadow: 0 0 5px 1px var(--purple); */
+}
+
+.text-input-container legend {
+  padding: 0 10px;
+}
+
+.input-section {
+  width: 100%;
+  margin-bottom: 4px;
+  display: flex;
+  padding: 5px 0px;
+}
+
+.input-section input,
+.input-section textarea {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  display: inline-block;
+  color: var(--white);
+  background-color: transparent;
+  padding-left: 4px;
+  font-size: 1.25rem;
+}
+
+.input-section textarea {
+  height: 200px;
+  overflow: scroll;
+}

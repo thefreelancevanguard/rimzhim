@@ -1,0 +1,83 @@
+.tn-container {
+  width: fit-content;
+  margin: 0;
+  position: relative;
+}
+
+.tn-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.tn-info {
+  width: 100%;
+  border: 2px solid burlywood;
+  border-radius: 0.5rem;
+  padding: 8px 12px;
+  z-index: 5;
+  position: relative;
+}
+
+.tn-connection-line {
+  width: 30px;
+  height: 2px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+}
+
+.tn-img-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.tn-img-container img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 5px 1px var(--purple);
+  border-radius: 50%;
+}
+
+.tn-img-container .father-img {
+  position: relative;
+  left: 10px;
+  z-index: 5;
+}
+
+.tn-img-container .mother-img {
+  position: relative;
+  right: 15px;
+  z-index: 4;
+}
+
+.tn-name-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tn-name-container span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.children-container {
+  border-left: 2px solid burlywood;
+  position: relative;
+  left: 50%;
+  margin-bottom: 55px;
+}
+
+.children-container .tn-container {
+  margin-bottom: 10px;
+  top: 45px;
+}
+
+.children-container .children-container {
+  /* border: none; */
+}

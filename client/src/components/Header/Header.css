@@ -1,0 +1,88 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  box-shadow: 0 0 10px 1px var(--purple);
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+}
+
+.logo-container .company-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon svg {
+  width: 1.25rem;
+  margin-right: 0.65rem;
+}
+
+.make-post-icon svg {
+  font-size: 2rem;
+  width: 2rem;
+}
+
+.menu-item {
+  padding: 5px 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: var(--purple);
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.username {
+  font-size: 1.5rem;
+}
+
+.user-profile-img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  margin-left: 1rem;
+}

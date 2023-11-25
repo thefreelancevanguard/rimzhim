@@ -1,0 +1,41 @@
+.post-card {
+  width: 24%;
+  min-width: 24%;
+  border-radius: 5px;
+  padding: 1rem;
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 5px 0px var(--purple);
+}
+
+.post-text {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  min-height: 50px;
+  max-height: 400px;
+  overflow-y: scroll;
+  line-height: 1.35;
+}
+
+.userinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.userinfo-item {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.see-more-btn {
+  color: var(--light-purple);
+  font-weight: 500;
+  font-size: 1.25rem;
+  cursor: pointer;
+}

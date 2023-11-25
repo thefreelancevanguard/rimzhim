@@ -1,0 +1,16 @@
+.ft-container {
+  padding: 20px 20px 50px;
+  /* border: 2px solid red; */
+}
+
+.ft-heading {
+  width: 25%;
+  padding: 5px 10px;
+  color: var(--purple);
+  box-shadow: -5px 5px 5px -5px var(--purple);
+  border-bottom-left-radius: 10px;
+}
+
+.tree-container {
+  /* overflow-x: scroll; */
+}
